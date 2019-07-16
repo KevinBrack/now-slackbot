@@ -1,6 +1,10 @@
 {
-  "version": 2,
-  "alias": "now-slack-bot",
   "name": "now-slack-bot",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ]
 }
