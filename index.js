@@ -24,8 +24,3 @@ module.exports = async (req, res) => {
   // Create response object and send back to slack
   res.end(JSON.stringify({ response_type, text: message, attachments }));
 };
-
-// module.exports = async (req, res) => {
-//   const body = await text(req);
-//   res.writeHead(200, { "Content-Type": "application/json" });
-// };
